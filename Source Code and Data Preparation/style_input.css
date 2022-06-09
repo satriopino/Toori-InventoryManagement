@@ -1,0 +1,48 @@
+h1 {
+    color: black;
+}
+
+span {
+    color: black;
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 500px;
+    padding-left: 20px;
+}
+
+.container div {
+    background-color: rgb(255, 196, 0);
+    height: 100px;
+    width: 145px;
+    margin: 5px;
+    border-radius: 15px;
+    padding-top: 8px;
+}
+
+label  {
+    text-align: center;
+}
+
+label, input {
+    display: block;
+}
+
+input {
+    margin: auto;
+    margin-top: 5px;
+}
+
+button {
+    margin-left: calc(50% - 70px);
+    width: 120px;
+    height: 45px;
+    background-color: #343a40;
+    color: white;
+}

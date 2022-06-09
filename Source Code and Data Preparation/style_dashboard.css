@@ -1,0 +1,41 @@
+h1 {
+    color: black;
+}
+
+span {
+    color: black;
+}
+
+.container {
+    display: flex;
+    width: 1250px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.container div.red {
+    background-color: rgba(226, 0, 0, 0.849);
+    height: 100px;
+    width: 145px;
+    margin: 5px;
+    border-radius: 15px;
+    padding-top: 8px;
+}
+
+.container div.green {
+    background-color: rgba(83, 226, 0, 0.795);
+    height: 100px;
+    width: 145px;
+    margin: 5px;
+    border-radius: 15px;
+    padding-top: 8px;
+}
+span.a, span.b {
+    text-align: center;
+}
+
+span.a, span.b {
+    display: block;
+}
